@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from fastMRI.utils import fft_utils
+import fft_utils
 
 class Net(nn.Module):
     def __init__(self, ksize=5, num=5):
